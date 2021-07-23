@@ -22,7 +22,11 @@
 }
 
 .menu  > h3 {
-    font-family: 'Lobster Two', cursive;
+    font-family: hucklebuck-jf, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
     color: #1455B8;
     font-size: 3rem;
     margin-top: 2rem;
