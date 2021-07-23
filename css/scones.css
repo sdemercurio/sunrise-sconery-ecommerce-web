@@ -1,0 +1,43 @@
+.scone-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.stars {
+    width: 2rem;
+    height:auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.menu  > h3 {
+    font-family: 'Lobster Two', cursive;
+    color: #1455B8;
+    font-size: 2rem;
+}
+
+.menu > ul {
+    list-style: none;
+    font-family: abolition, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.menu-bg {
+    background-image: url(./img/weekly_menu_bg.jpg);
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,137 @@
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+a.nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: #D77804 !important;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#first-two {
+    margin-top: 10px;
+}
+
+a.navbar-brand {
+    font-family: abolition, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color:#D77804 !important;
+}
+
+.cart {
+    height: 50px;
+
+}
+
+
+
+.footer-container {
+    width: 100vw;
+    height: auto;
+    background-color: #FBD482;
+}
+
+.footer {
+    
+    width: 100vw;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1rem 2rem 0 2rem;
+}
+
+.footer__logo {
+    text-decoration: none;
+}
+
+.footer__logo  {
+    font-family: abolition, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+    cursor: pointer;
+    text-decoration: none;
+    color:#D39000;
+    line-height: 5px;
+}
+
+.footer__links {
+    width: 100vw;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: .5em .5em .5em .5em;
+    color: #355FB0;
+    text-align: center;
+}
+
+
+.footer__info {
+    margin: 0 5px 0 5px;
+    font-size: 2vw;
+}
+
+.footer__info > a {
+    color: #355FB0;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.builtby {
+    color: #D39000;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.footer__links > li > a:hover {
+    color: #D39000;
+}
+
+.not {
+    width: 20vw;
+    height:auto;
+}
+
+.socials {
+
+    display: flex;
+}
+
+.social-icon > img {
+    margin-right: 2vw;
+    width: 3vw;
+    height: auto;
+}
+
+.phoneIcon {
+    width: 3rem;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.socials > a {
+    
+    color: #355FB0 !important;
+    font-size: 2rem;
+}
+
+.builtBy a {
+    color: #355FB0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    color: #e7e298;
+    font-family: 'Poppins', sans-serif;
+}

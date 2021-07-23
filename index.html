@@ -1,36 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.typekit.net/akf4stt.css">
+
+    <link rel="stylesheet" href="css/footer-nav.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/how-to.css">
     <link rel="stylesheet" href="css/order.css">
     <link rel="stylesheet" href="css/cart.css">
-    
+    <link rel="stylesheet" href="css/scones.css">
+
     <title>Sunrise Sconery</title>
 </head>
+
 <body>
+    <!----------------------- NAVIGATION ------------------------->
 
-    <!----------------------- HOME SCREEN ------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sunrise Sconery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="first-two" aria-current="page" href="#">How To Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="first-two" href="#">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#"><img class="img-fluid cart" src="img/cart.svg"
+                                alt="shopping cart icon"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <div class="home-screen"></div>
+    <!----------------------- HOME ------------------------->
+    <main class="main-content" id="main-info">
+        <img class="main-banner img-fluid" src="img/coverphoto.jpg" alt="scones with Sunrise Sconery logo.">
+        <div class="container" id="home-screen">
+            <div class="row main-head">
+                <h1>Welcome!</h1>
+                <p>
+                    Sunrise Sconery is a small sconery based in Warren, Michigan. <br />
 
-    <!----------------------- HOW TO ORDER SCREEN ----------------->
-    
-    <div class="how-to-screen"></div>
-    
+                    Our scones are sweet or savory and definitely not too dry, but you need to be the judge of that.
+
+                    Come on and try some!</p>
+            </div>
+        </div>
+
+        <!----------------------- OUR SCONES ------------------------->
+
+        <div class="scone-list">
+            <div class="scone-head">
+                <img class="stars" src="img/2stars.png" alt="2 vintage yellow stars">
+                <h1 id="weeks-scones">This Week's Scones</h1>
+                <img class="stars" src="img/star.png" alt="1 vintage yellow stars">
+            </div>
+            <div class="menu">
+                <!-- <div class="menu-bg"></div> -->
+                <h3>Sweet</h3>
+                <ul>
+                    <li>Lemon</li>
+                    <li>Cherry</li>
+                    <li>Blueberry</li>
+                    <li>Orange</li>
+                    <li>Cinnamon Chip</li>
+                    <li>Triple Chocolate</li>
+                    <li>White Chocolate Raspberry</li>
+                    <li>Strawberry Lemon</li>
+                    <li>Michigan Cherry Walnut</li>
+                    <li>Chocolate Peanut Butter Banana</li>
+                    <li>Coconut Almond</li>
+                </ul>>
+
+                <h3>Savory</h3>
+                <ul>
+                    <li>Bacon Cheddar Chive</li>
+                    <li>Spinach & Feta</li>
+                    <li>Smoked Gouda & Caramelized Onion</li>
+                </ul>
+
+                <h3>Gluten Free</h3>
+                <ul>
+                    <li>Bacon Cheddar Chive</li>
+                    <li>Triple Chocolate</li>
+                </ul>
+            </div>
+        </div>
+
+        <!----------------------- HOW TO ORDER ----------------->
+
+        <div class="container" id="how-to-screen">
+            <div class="scone-head">
+                <img class="stars" src="img/2stars.png" alt="2 vintage yellow stars">
+                <h1 id="weeks-scones">How To Order</h1>
+                <img class="stars" src="img/star.png" alt="1 vintage yellow stars">
+            </div>
+            <div class="row">
+
+
+
+                <div class="col-sm-6">
+                    <img class="sideImage img-fluid" src="img/strawberry_lemon.jpg" alt="strawberry lemon scones"></img>
+                </div>
+                <div class="col-md-6">
+                    <div class="icon__desc">
+                        <img class="icons" src="img/box_icons.png" alt="scone icon"></img>
+                        <div class="head__desc">
+                            <h5 class="howto-head">dozen or half dozen?</h5>
+                            <p class="how-to-text">Select whether you want a dozen or half-dozen.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="icon__desc">
+                        <img class="icons" src="img/scone_icon.png" alt="scone icon"></img>
+                        <div class="head__desc">
+                            <h5 class="howto-head">choose your scones</h5>
+                            <p class="how-to-text">Our scones are baked fresh daily and can be delivered straight to
+                                your doorstep. Have an allergy or food intolerance? No problem! We offer gluten-free and
+                                dairy-free. Stay tuned for sugar-free!</p>
+                        </div>
+                    </div>
+
+
+                    <div class="icon__desc">
+                        <img class="icons" src="img/calendar_icon.png" alt="calendar icon"></img>
+                        <div class="head__desc">
+                            <h5 class="howto-head">schedule your delivery</h5>
+                            <p class="how-to-text">We offer same day delivery but encourage orders a day in advance. For
+                                orders larger than 2 dozen, we ask you place these orders at least 3 days in advance to
+                                allow us time to ensure proper inventory.</p>
+                        </div>
+                    </div>
+
+                    <div class="icon__desc">
+                        <img class="icons" src="img/smiley_icons.png" alt="calendar icon"></img>
+                        <div class="head__desc">
+                            <h5 class="howto-head">get happy!</h5>
+                            <p class="how-to-text">We have many happy customers and we want to make you happy too. </p>
+                        </div>
+                    </div>
+
+                    <div class="scone-head">
+                        <img class="stars" src="img/2stars.png" alt="2 vintage yellow stars">
+                            <h1 id="weeks-scones">To Place Your Order</h1>
+                            <img class="stars" src="img/star.png" alt="1 vintage yellow stars">
+                        </div>
+                    <p id="place-order">Call us at 586-350-3228 or email sunrisesconery@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="col-md-12 disclaimer">
+
+                <p>We are a small operation and only keep so many scones in stock at a time for quality purposes.
+                    For orders larger than one dozen, we ask you place your order 2 days in advance so we can ensure
+                    availability.
+                    For orders larger than 2 dozen, please contact us at 586-350-3228.</p>
+            </div>
+
+            <!-- <button type="button" class="btn" id="begin-order">
+                Order Scones
+            </button> -->
+
+        </div>
+
+    </main>
+
     <!----------------------- ORDER SCREEN ------------------------->
-    
-    <div class="order-screen"></div>
-    
-    <!----------------------- CART SCREEN -------------------=------>
-    
-    <div class="cart-screen"></div>
-    
-    
 
-    <script type="javascript" href="js/index.js"></script>
+    <div class="container" id="order-screen">
+        <div class="row">
+            <h1>order</h1>
+        </div>
+    </div>
+
+    <!----------------------- CART SCREEN ------------------------->
+
+    <div class="container" id="cart-screen">
+        <div class="row">
+            <h1>cart</h1>
+        </div>
+    </div>
+
+    <!----------------------- FOOTER ------------------------->
+
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer__logo">
+                <Link to="#">
+                Sunrise Sconery
+                </Link>
+            </div>
+            <img class="not" src="img/not_average.png" alt="starburst with the text not your average scone"></img>
+            <div class="socials">
+                <div>
+                    <a class="social-icon" href="https://www.facebook.com/sunrisesconery/"> <img
+                            src="img/facebook_icon.png" alt="facebook icon"></img></a>
+                </div>
+                <div><a class="social-icon" href="https://www.instagram.com/sunrisesconery/?hl=en"> <img
+                            src="img/instagram_icon.png" alt="instagram icon"></img></a></div>
+                <div><a class="social-icon" href="mailto: sunrisesconery@gmail.com"><img src="img/email_icon.png"
+                            alt="email icon"></img></a></div>
+
+            </div>
+
+        </div>
+        <div class="footer__links">
+            <div class="footer__info">
+                586-350-3228
+            </div>
+
+            <div class="footer__info">
+                Made in Warren, Michigan
+            </div>
+            <div class="footer__info">
+                <a href="https://www.sarahdemercurio.com/">Website by <span class="builtby">S.L.DeMercurio</span> </a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script type="javascript" src="js/index.js"></script>
 </body>
+
 </html>

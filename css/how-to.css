@@ -1,0 +1,55 @@
+.howto {
+    display: flex;
+    flex-direction: row;
+}
+
+.sideImage {
+    margin-bottom: 2rem;
+}
+
+.icons {
+    width: 12%;
+    height: 12%;
+    margin: 0 5% 0 5%;
+}
+
+.icon__desc {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.howto-head {
+    font-weight:bold;
+    font-size: 1.25rem;
+}
+
+.how-to-text {
+    font-size: 1rem;
+}
+
+.disclaimer {
+    margin-top: 40px;
+}
+
+#place-order {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+    .how-to-text {
+        font-size: 1rem;
+    }
+    
+    .disclaimer {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+    
+    #place-order {
+        margin-bottom: 16px;
+        text-align: center;
+    }
+}
