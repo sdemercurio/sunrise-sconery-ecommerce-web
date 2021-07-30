@@ -47,6 +47,7 @@ a.navbar-brand {
     align-content: center;
     justify-content: space-between;
     padding: 1rem 2rem 0 2rem;
+    bottom: 0;
 }
 
 .footer__logo {
