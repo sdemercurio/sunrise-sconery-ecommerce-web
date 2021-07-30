@@ -22,6 +22,14 @@ a.navbar-brand {
     color:#D77804 !important;
 }
 
+a.navbar-brand:hover {
+    font-family: abolition, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color:#1455B8 !important;
+}
+
 .cart {
     height: 50px;
 
@@ -53,6 +61,7 @@ a.navbar-brand {
 .footer__logo {
     text-decoration: none;
 }
+
 
 .footer__logo  {
     font-family: abolition, sans-serif;
