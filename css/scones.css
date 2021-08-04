@@ -15,19 +15,13 @@
 .menu {
     display: flex;
     flex-direction: column;
-    align-items: top;
+    align-items: center;
     text-align: center;
-    align-content: space-between;
+    align-content: center;
     justify-content: center;
-    
 }
 
-.menu-items {
-    margin-right: 3rem;
-    align-content: space-between;
-}
-
-.menu-items  > h3 {
+.menu  > h3 {
     font-family: 'Lobster', cursive;
 
 font-weight: 400;
@@ -35,10 +29,11 @@ font-weight: 400;
 font-style: normal;
     color: #1455B8;
     font-size: 3rem;
-    
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
-.menu-items > ul {
+.menu > ul {
     list-style: none;
     font-family: abolition, sans-serif;
     font-weight: 400;
@@ -51,16 +46,4 @@ font-style: normal;
     background-image: url(./img/weekly_menu_bg.jpg);
     width: 200px;
     height: 200px;
-}
-
-@media screen and (min-width: 767px) {
-    .menu {
-        display: flex;
-        flex-direction: row;
-        align-items: top;
-        text-align: center;
-        align-content: space-between;
-        justify-content: center;
-        
-    }
 }

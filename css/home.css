@@ -42,40 +42,6 @@ font-style: normal;
   margin-right: auto;
 }
 
-.celebration {
-    width: 100%;
-    height: auto;
-    margin: 0 1rem 0 1rem;
-}
-
-.special {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    align-content: space-between;
-    justify-content: center;
-    margin: 1rem 0 1rem 0;
-}
-
-@media screen and (min-width: 767px) {
-    .special {
-        display: flex;
-        flex-direction: row;
-        align-items: top;
-        text-align: center;
-        align-content: space-between;
-        justify-content: center;
-        margin: 0 1rem 0 1rem;
-    }
-
-    .celebration {
-        width: 50%;
-        height: auto;
-        margin: 0 1rem 0 1rem;
-    }
-}
-
 
 
 @media only screen and (min-width: 992px) {
