@@ -89,6 +89,15 @@ font-style: normal;
         
     }
 
+    .menu-items > ul {
+        list-style: none;
+        font-family: abolition, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
     .price {
         display: flex;
         flex-direction: row;
