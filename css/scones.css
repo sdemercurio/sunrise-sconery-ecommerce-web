@@ -78,6 +78,11 @@ font-style: normal;
     height: 200px;
 }
 
+.celebration {
+    font-family: 'Poppins', sans-serif;
+    color: #1455B8;
+}
+
 @media screen and (min-width: 767px) {
     .menu {
         display: flex;
@@ -114,5 +119,12 @@ font-style: normal;
 
     .featured-image {
         margin-right: 2rem;
+    }
+
+    .celebration {
+        font-family: 'Poppins', sans-serif;
+        color: #1455B8;
+        font-size: 12px;
+        line-height: 15px;
     }
 }
