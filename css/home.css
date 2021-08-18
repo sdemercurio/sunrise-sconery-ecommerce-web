@@ -21,7 +21,7 @@ body {
     font-size: 14px;
 }
 
-h1 {
+.main-head > h1 {
     font-family: 'Lobster', cursive;
 
 font-weight: 400;
@@ -46,20 +46,20 @@ font-style: normal;
 
 @media only screen and (min-width: 992px) {
   
-    h1 {
+    .main-head > h1 {
         font-family: 'Lobster', cursive;
 
 font-weight: 400;
 
 font-style: normal;
         color: #1455B8;
-        font-size: 3rem;
+        font-size: 5rem;
         text-align: center;
         margin: 3vw 0 3vw 0;
     }
 
     .main-head > p {
-        font-size: 16px;
+        font-size: 24px;
         text-align: left;
     }
 

@@ -28,7 +28,7 @@ font-weight: 400;
 
 font-style: normal;
     color: #1455B8;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -83,6 +83,18 @@ font-style: normal;
     color: #1455B8;
 }
 
+#weeks-scones {
+    font-family: 'Lobster', cursive;
+
+font-weight: 400;
+
+font-style: normal;
+color: #1455B8;
+font-size: 2rem;
+text-align: center;
+margin: 3vw 0 3vw 0;
+}
+
 @media screen and (min-width: 767px) {
     .menu {
         display: flex;
@@ -126,5 +138,17 @@ font-style: normal;
         color: #1455B8;
         font-size: 12px;
         line-height: 15px;
+    }
+
+    #weeks-scones {
+        font-family: 'Lobster', cursive;
+
+font-weight: 400;
+
+font-style: normal;
+    color: #1455B8;
+    font-size: 4rem;
+    text-align: center;
+    margin: 3vw 0 3vw 0;
     }
 }
