@@ -126,7 +126,11 @@ margin: 3vw 0 3vw 0;
     }
 
     .price-options {
-        margin-right: 3rem;
+        margin-right: 4rem;
+    }
+
+    .option-price {
+        font-size: 30px;
     }
 
     .featured-image {
