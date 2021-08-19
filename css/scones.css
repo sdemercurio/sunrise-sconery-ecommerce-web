@@ -95,6 +95,12 @@ text-align: center;
 margin: 3vw 0 3vw 0;
 }
 
+.limited-time {
+    font-family: 'Poppins', sans-serif;
+color: #1455B8;
+font-size: 16px;
+}
+
 @media screen and (min-width: 767px) {
     .menu {
         display: flex;
@@ -113,6 +119,12 @@ margin: 3vw 0 3vw 0;
         font-style: normal;
         font-size: 1.5rem;
         letter-spacing: 1px;
+    }
+
+    .limited-time {
+        font-family: 'Poppins', sans-serif;
+    color: #1455B8;
+    font-size: 16px;
     }
 
     .price {
