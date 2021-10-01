@@ -3,6 +3,38 @@ body {
     color: #1455B8;
 }
 
+.announcement {
+    font-family: abolition, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2em;
+text-align: center;
+}
+
+.event-banner {
+    background-color: #1455B8;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.event-banner > h2, li {
+    color: white;
+}
+
+.event-banner > li {
+    font-size: 1em;
+    list-style: none;
+    margin-bottom: 2%;
+}
+
+.find-us {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
 .main-content {
     display:block;
 }
@@ -45,7 +77,33 @@ font-style: normal;
 
 
 @media only screen and (min-width: 992px) {
-  
+
+    .announcement {
+        font-family: abolition, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    }
+
+    .event-banner {
+        background-color: #1455B8;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .event-banner > h2, li {
+        color: white;
+    }
+
+    .find-us {
+        font-family: 'Lobster', cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+    }
+
     .main-head > h1 {
         font-family: 'Lobster', cursive;
 
