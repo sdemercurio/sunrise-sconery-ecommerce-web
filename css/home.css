@@ -98,16 +98,16 @@ font-style: normal;
     }
 
     .event-banner > li {
-        font-size: 22px;
+        font-size: 45px;
         list-style: none;
-        margin-bottom: 2%;
+        margin-bottom: 1rem;
     }
 
     .find-us {
         font-family: 'Lobster', cursive;
         font-weight: 400;
         font-style: normal;
-        font-size: 50px;
+        font-size: 75px;
     }
 
     .main-head > h1 {
