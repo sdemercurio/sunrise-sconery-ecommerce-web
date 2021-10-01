@@ -33,13 +33,14 @@ font-style: normal;
     margin-bottom: 1rem;
 }
 
-.menu-items > ul {
+.menu-items > ul >li {
     list-style: none;
     font-family: abolition, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
     letter-spacing: 1px;
+    color: #1455B8;
 }
 
 .price-options > h3 {
@@ -54,13 +55,14 @@ font-style: normal;
         margin-bottom: 1rem;
 }
 
-.price-options > ul {
+.price-options > ul >li {
     list-style: none;
     font-family: abolition, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
     letter-spacing: 1px;
+    color: #1455B8;
 }
 
 .price {
@@ -112,13 +114,14 @@ font-size: 16px;
         
     }
 
-    .menu-items > ul {
+    .menu-items > ul >li {
         list-style: none;
         font-family: abolition, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.5rem;
+        font-size: 2rem;
         letter-spacing: 1px;
+        color: #1455B8;
     }
 
     .limited-time {
@@ -141,8 +144,8 @@ font-size: 16px;
         margin-right: 4rem;
     }
 
-    .option-price {
-        font-size: 30px;
+    .option-price > li {
+        font-size: 3em;
     }
 
     .featured-image {
