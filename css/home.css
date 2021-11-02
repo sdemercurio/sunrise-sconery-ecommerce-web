@@ -35,6 +35,12 @@ text-align: center;
     font-size: 2em;
 }
 
+#gf-price {
+    font-family: 'Poppins', sans-serif;
+    color: #1455B8;
+    font-size: 16px;
+}
+
 .main-content {
     display:block;
 }
@@ -72,6 +78,12 @@ font-style: normal;
     display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10%;
+  text-decoration: none;
+}
+
+button > a {
+    text-decoration: none;
 }
 
 
