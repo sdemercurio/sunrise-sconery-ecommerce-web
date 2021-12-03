@@ -94,7 +94,7 @@ button > a {
         font-family: abolition, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
     }
 
@@ -110,7 +110,7 @@ button > a {
     }
 
     .event-banner > li {
-        font-size: 45px;
+        font-size: 35px;
         list-style: none;
         margin-bottom: 1rem;
     }

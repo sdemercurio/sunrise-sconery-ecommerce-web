@@ -55,6 +55,33 @@ font-style: normal;
         margin-bottom: 1rem;
 }
 
+.gf-note {
+    background-color: #1455B8;
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+
+.gf-note > h3 {
+    font-family: 'Lobster', cursive;
+
+    font-weight: 400;
+    
+    font-style: normal;
+        color: white;
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+}
+
+.gf-note > p {
+    font-size: 16px;
+}
+
+#mild {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .price-options > ul >li {
     list-style: none;
     font-family: abolition, sans-serif;
@@ -128,6 +155,27 @@ font-size: 16px;
         font-family: 'Poppins', sans-serif;
     color: #1455B8;
     font-size: 16px;
+    }
+
+    .gf-note > h3 {
+        font-family: 'Lobster', cursive;
+    
+        font-weight: 400;
+        
+        font-style: normal;
+            color: white;
+            font-size: 3rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+    }
+    
+    .gf-note > p {
+        font-size: 18px;
+    }
+
+    #mild {
+        font-weight: bold;
+        font-size: 20px;
     }
 
     .price {
