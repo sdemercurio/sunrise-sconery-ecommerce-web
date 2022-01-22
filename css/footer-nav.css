@@ -41,13 +41,16 @@ a.navbar-brand:hover {
     width: 100vw;
     height: auto;
     background-color: #FBD482;
+    bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
 }
 
 .footer {
     
     width: 100vw;
     height: auto;
-    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,7 +58,6 @@ a.navbar-brand:hover {
     align-content: center;
     justify-content: space-between;
     padding: 0 15px 0 15px;
-    bottom: 0;
 }
 
 .footer__logo {
