@@ -19,6 +19,7 @@
     text-align: center;
     align-content:center;
     justify-content: center;
+   
 }
 
 .menu-items  > h3 {
@@ -93,6 +94,7 @@ font-style: normal;
     text-align: center;
     align-content:center;
     justify-content: center;
+    margin-bottom: 75px;
 }
 
 .menu-bg {
@@ -142,6 +144,7 @@ font-size: 16px;
         font-style: normal;
         letter-spacing: 1px;
         color: #1455B8;
+        font-size: 18px;
     }
 
     .limited-time {
