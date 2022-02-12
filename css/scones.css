@@ -38,7 +38,7 @@ font-style: normal;
     font-family: abolition, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 16px;
     letter-spacing: 1px;
     color: #1455B8;
 }
@@ -58,7 +58,7 @@ font-style: normal;
 .gf-note {
     background-color: #1455B8;
     color: white;
-    padding: 5px 15px 5px 15px;
+    padding: 15px;
 }
 
 .gf-note > h3 {
@@ -68,18 +68,12 @@ font-style: normal;
     
     font-style: normal;
         color: white;
-        font-size: 3rem;
-        margin-top: 2rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
 }
 
 .gf-note > p {
     font-size: 16px;
-}
-
-#mild {
-    font-weight: bold;
-    font-size: 18px;
 }
 
 .price-options > ul >li {
@@ -146,7 +140,6 @@ font-size: 16px;
         font-family: abolition, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 2rem;
         letter-spacing: 1px;
         color: #1455B8;
     }
@@ -155,6 +148,10 @@ font-size: 16px;
         font-family: 'Poppins', sans-serif;
     color: #1455B8;
     font-size: 16px;
+    }
+
+    .gf-note {
+        padding:25px;
     }
 
     .gf-note > h3 {

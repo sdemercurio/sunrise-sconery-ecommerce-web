@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
 
 .navbar-nav {
     margin-left: auto;
@@ -35,48 +40,28 @@ a.navbar-brand:hover {
 
 }
 
-
-
 .footer-container {
+    height: 250px;
     width: 100vw;
-    height: auto;
-    background-color: #FBD482;
-    bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.footer {
-    
-    width: 100vw;
-    height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     align-content: center;
-    justify-content: space-between;
     padding: 0 15px 0 15px;
 }
-
-.footer__logo {
-    text-decoration: none;
-}
-
 
 .footer__logo  {
     font-family: abolition, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 40px;
     cursor: pointer;
     text-decoration: none;
     color:#D39000;
-    line-height: 5px;
 }
 
 .footer__links {
-    width: 100vw;
     display: flex;
     list-style: none;
     align-items: center;
@@ -109,20 +94,14 @@ a.navbar-brand:hover {
 }
 
 .not {
-    width: 100px;
+    width: 125px;
     height:auto;
+    margin-bottom: 20px;
 }
 
 .socials {
 
     display: flex;
-}
-
-.phoneIcon {
-    width: 3rem;
-    display: flex;
-    flex-direction: row;
-    display: inline-block;
 }
 
 .social-icon > img {
@@ -142,12 +121,42 @@ a:hover {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+@media only screen and (min-width: 769px) {
+
+    a.nav-link:hover {
+        color: #1455B8 !important;
+    }
+
+    .footer-container {
+        height: 250px;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+  justify-content: space-evenly;
+}
+
+.not {
+    width: 175px;
+    height:auto;
+    margin-bottom: 20px;
+}
+}
+
 @media only screen and (min-width: 992px) {
+
+    .footer-container {
+        padding: 20px;
+        width: 100vw;
+    }
+
     .footer__logo  {
         font-family: abolition, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 4vw;
+        font-size: 50px;
         cursor: pointer;
         text-decoration: none;
         color:#D39000;
@@ -188,7 +197,7 @@ a:hover {
     }
     
     .not {
-        width: 20vw;
+        width: 200px;
         height:auto;
     }
     

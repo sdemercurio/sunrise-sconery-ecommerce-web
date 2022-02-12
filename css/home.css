@@ -3,6 +3,15 @@ body {
     color: #1455B8;
 }
 
+a {
+    text-decoration: none;
+    color: #1455B8;
+}
+
+a:hover {
+    color: rgb(216, 130, 2);
+}
+
 .announcement {
     font-family: abolition, sans-serif;
 font-weight: 400;
@@ -86,9 +95,18 @@ button > a {
     text-decoration: none;
 }
 
-
+@media only screen and (min-width: 769px) {
+    .main-head p{
+        font-size: 16px;
+        text-align: left;
+    }
+}
 
 @media only screen and (min-width: 992px) {
+    .main-banner {
+        width: 100%;
+        height: auto;
+    }
 
     .announcement {
         font-family: abolition, sans-serif;
@@ -135,8 +153,7 @@ font-style: normal;
     }
 
     .main-head > p {
-        font-size: 24px;
-        text-align: center;
+        font-size: 18px;
     }
 
     .disclaimer {
