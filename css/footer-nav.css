@@ -41,14 +41,15 @@ a.navbar-brand:hover {
 }
 
 .footer-container {
-	height: 250px;
+	height: 150px;
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	align-content: center;
-	padding: 0 15px 0 15px;
+    justify-content: space-between;
+	padding: 15px;
 }
 
 .footer__logo {
@@ -84,8 +85,12 @@ a.navbar-brand:hover {
 
 .builtby {
 	color: #d39000;
-	font-size: 12px;
+	font-size: 16px;
 	text-decoration: none;
+}
+
+.builtby:hover {
+    color:#1455b8;
 }
 
 .footer__links > li > a:hover {
@@ -105,19 +110,7 @@ a.navbar-brand:hover {
 .social-icon > img {
 	color: #355fb0 !important;
 	width: 23px;
-	margin-left: 10px;
-}
-
-.builtBy a {
-	color: #355fb0;
-	font-family: "Cutive Mono", monospace;
-	font-family: "Open Sans", sans-serif;
-}
-
-a:hover {
-	color: #e7e298;
-	font-family: "Cutive Mono", monospace;
-	font-family: "Open Sans", sans-serif;
+	margin: 10px;
 }
 
 @media only screen and (min-width: 769px) {
