@@ -216,4 +216,8 @@ font-style: normal;
     text-align: center;
     margin: 3vw 0 3vw 0;
     }
+
+    .order-note {
+        margin: 150px 50px 50px 50px;
+    }
 }
